@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"] - TodoApp</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="option"><span>Home</span></div>
+            <div class="option"><span>Login</span></div>
+            <a><div class="option"><span>Write something</span></div></a>
+        </nav>
+    </header> 
+<div class="container">
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+</div>
+
+<footer>
+    Copyright. Ivaylo Kartev 2023 (c)
+</footer>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>
