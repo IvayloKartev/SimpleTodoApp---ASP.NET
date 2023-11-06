@@ -1,0 +1,35 @@
+.formreg{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    border-radius: 15px;
+    box-shadow: black;
+    height: 25vh;
+    gap: 1vh;
+    font-size: 1.5rem;
+}
+.main-subst{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.reginp{
+    height: 2rem;
+}
+.regbtn{
+    width: 10vh;
+    height: 1.5rem;
+    font-size: 1rem;
+}
+.reghead{
+    text-align: center;
+    font-size: 30px;
+}

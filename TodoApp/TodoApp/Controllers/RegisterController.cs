@@ -47,6 +47,6 @@ public class RegisterController : Controller
                 throw; // Rethrow the exception for proper error handling.
             }
             Console.WriteLine("tets");
-        return View(model);
+            return RedirectToAction("Index", "Home");
     }
 }

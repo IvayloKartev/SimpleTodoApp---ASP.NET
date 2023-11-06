@@ -1,18 +1,20 @@
 @model TodoApp.Models.User
-
 @{
-    ViewBag.Title = "title";
-    Layout = "_Layout";
+    ViewData["Title"] = "Home Page";
 }
-
-<form asp-controller="Register" asp-action="Register" method="post">
-    <div class="form-group">
-        <label asp-for="Username"></label>
-        <input asp-for="Username" class="form-control" />
-    </div>
-    <div class="form-group">
-        <label asp-for="Password"></label>
-        <input asp-for="Password" class="form-control" />
-    </div>
-    <button type="submit" class="btn btn-primary">Register</button>
-</form>
+<div class="main-subst">
+    <h1 class="reghead">Register, if you do not have an account</h1>
+    <section class="register">
+        <form asp-controller="Register" asp-action="Register" method="post" class="formreg">
+            <div class="form-group">
+                <label asp-for="Username"></label>
+                <input asp-for="Username" class="reginp"/>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password"></label>
+                <input asp-for="Password" class="reginp"/>
+            </div>
+            <button type="submit" class="regbtn">Register</button>
+        </form>
+    </section>
+</div>

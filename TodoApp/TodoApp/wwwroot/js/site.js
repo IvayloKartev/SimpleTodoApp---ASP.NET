@@ -1,4 +1,13 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
-
-// Write your JavaScript code.
+﻿document.addEventListener("DOMContentLoaded", function(){
+    const date = new Date();
+    const day = date.getDay();
+    const month = date.getMonth();
+    const year = date.getFullYear();
+    let curDate = String(day)+"/"+String(month)+"/"+String(year);
+    const dateInp = document.getElementById("dateInp");
+    function assignDate(){
+        dateInp.value = curDate;
+    }
+    const submitbtn = document.getElementById("sbmt");
+    submitbtn.addEventListener("click", assignDate);
+});

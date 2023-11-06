@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gSivaZ4Lfg40y+QkJ6UF0KyoDP+7507GaD3v4TUiGOs=",
+  "Hash": "YKfH5HybKPgEVFosfIhSTxgmrhRdilDfhVd7ONFu3Ro=",
   "Source": "TodoApp",
   "BasePath": "_content/TodoApp",
   "Mode": "Default",
@@ -68,6 +68,40 @@
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
+      "Identity": "/home/ivaylokartev/RiderProjects/TodoApp/TodoApp/wwwroot/css/style-register.css",
+      "SourceId": "TodoApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ivaylokartev/RiderProjects/TodoApp/TodoApp/wwwroot/",
+      "BasePath": "_content/TodoApp",
+      "RelativePath": "css/style-register.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/style-register.css"
+    },
+    {
+      "Identity": "/home/ivaylokartev/RiderProjects/TodoApp/TodoApp/wwwroot/css/style-write.css",
+      "SourceId": "TodoApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ivaylokartev/RiderProjects/TodoApp/TodoApp/wwwroot/",
+      "BasePath": "_content/TodoApp",
+      "RelativePath": "css/style-write.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/style-write.css"
+    },
+    {
       "Identity": "/home/ivaylokartev/RiderProjects/TodoApp/TodoApp/wwwroot/css/style.css",
       "SourceId": "TodoApp",
       "SourceType": "Discovered",
@@ -100,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/home/ivaylokartev/RiderProjects/TodoApp/TodoApp/wwwroot/img/m-bg.jpg",
+      "SourceId": "TodoApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ivaylokartev/RiderProjects/TodoApp/TodoApp/wwwroot/",
+      "BasePath": "_content/TodoApp",
+      "RelativePath": "img/m-bg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/m-bg.jpg"
     },
     {
       "Identity": "/home/ivaylokartev/RiderProjects/TodoApp/TodoApp/wwwroot/js/site.js",

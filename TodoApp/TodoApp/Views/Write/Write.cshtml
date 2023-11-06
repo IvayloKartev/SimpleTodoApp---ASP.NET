@@ -1,0 +1,37 @@
+@page
+@model List<TodoApp.Models.Todo>
+
+@{
+    
+}
+
+<section class="headers">
+    <h1>You can write your stuff her: </h1>
+    <h2>Messages: </h2>
+</section>
+<section class="todo-box">
+    <div class="mbox">
+        <div class="title">
+            <p>Name</p>
+            <p>Description</p>
+            <p>Date</p>
+        </div>
+        @foreach (var todo in Model)
+        {
+            <div class="todo">
+                <p>@todo.Name</p>
+                <p>@todo.Content</p>
+                <p>@todo.Date</p>
+            </div>
+        }
+    </div>
+</section>
+<section class="new">
+    <form asp-controller="Write" asp-action="Write" method="post" class="newform">
+        <label for="todo1">New Todo (name): <input type="text" name="new-todo" id="todo1" value="name"></label>
+        <label for="todo2">New Todo (content): <input type="text" name="new-todo1" id="todo2" value="want"></label>
+        <input type="text" class="invis" id="dateInp">          
+        <input type="submit" value="Submit" id="sbmt">
+    </form>
+</section>
+<script src="~/js/site.js"></script>

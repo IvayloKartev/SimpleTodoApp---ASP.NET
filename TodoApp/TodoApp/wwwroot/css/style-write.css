@@ -1,0 +1,49 @@
+.headers{
+    text-align: center;
+}
+.todo-box{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mbox{
+    background-color: darkgray;
+    height: 15vh;
+    width: 20vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+}
+.new{
+    display: flex;
+    justify-content: center;
+}
+#todo1{
+    height: 2rem;
+    border-radius: 10px;
+}
+#sbmt{
+    height: 2rem;
+    width: 5rem;
+}
+.todo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.invis{
+    visibility: hidden;
+}
+.newform{
+    display: flex;
+    flex-direction: column;
+}

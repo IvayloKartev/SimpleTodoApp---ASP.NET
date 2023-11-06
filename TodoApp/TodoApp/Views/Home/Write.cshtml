@@ -2,34 +2,20 @@
 @model TodoApp.Views.Home.Write
 
 @{
-    Layout = null;
 }
 
-<!DOCTYPE html>
+    <section class="headers">
+        <h1>You can write your stuff her: </h1>
+        <h2>Messages: </h2>
+    </section>
+    <section class="todo-box">
+        <div class="mbox">
 
-<html>
-<head>
-    <title></title>
-</head>
-<body>
-<div>
-    <main>
-        <section class="headers">
-            <h1>You can write your stuff her: </h1>
-            <h2>Messages: </h2>
-        </section>
-        <section class="todo-box">
-            <div class="mbox">
-    
-            </div>
-        </section>
-        <section class="new">
-            <form action="/submit-form" method="post">
-                <label for="todo">New Todo: <input type="text" name="new-todo" id="todo"></label>
-                <input type="submit" value="Submit" id="sbmt">
-            </form>
-        </section>
-    </main>
-</div>
-</body>
-</html>
+        </div>
+    </section>
+    <section class="new">
+        <form action="/submit-form" method="post">
+            <label for="todo">New Todo: <input type="text" name="new-todo" id="todo"></label>
+            <input type="submit" value="Submit" id="sbmt">
+        </form>
+    </section>

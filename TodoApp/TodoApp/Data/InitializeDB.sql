@@ -1,12 +1,17 @@
 CREATE DATABASE IF NOT EXISTS todolist;
-CREATE TABLE IF NOT EXISTS todolist.todos(
-    id INT UNIQUE AUTO_INCREMENT,
-    `name` VARCHAR(10) UNIQUE NOT NULL,
-    content VARCHAR(50)	NOT NULL,
-    `date` VARCHAR(10)
-);
-CREATE TABLE IF NOT EXISTS todolist.users(
-    id INT UNIQUE AUTO_INCREMENT,
-    username VARCHAR(10) NOT NULL UNIQUE,
-    pass VARCHAR(10)
+CREATE TABLE IF NOT EXISTS todolist.Users(
+     id INT UNIQUE AUTO_INCREMENT,
+     Username VARCHAR(10) NOT NULL UNIQUE,
+    `Password` VARCHAR(300),
+    CONSTRAINT PRIMARY KEY (id)
+    );
+CREATE TABLE IF NOT EXISTS todolist.Todos(
+     id INT UNIQUE AUTO_INCREMENT,
+     `Name` VARCHAR(10) UNIQUE NOT NULL,
+    Content VARCHAR(50)	NOT NULL,
+    `Owner` VARCHAR(10) NOT NULL,
+    `Date` VARCHAR(10),
+    CONSTRAINT todos_pk PRIMARY KEY (id),
+    CONSTRAINT todos_fk FOREIGN KEY (`Owner`)
+    REFERENCES Users(Username)
 );
